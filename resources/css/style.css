@@ -129,12 +129,19 @@ header nav {
   margin-left: 20px;
 }
 
-.fall-cancelled.image-content {
-  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-2.png");
+.undercroft.image-content {
+  background-image: url("/bsides/resources/images/undercroft.png");
+  background-size:contain;
+  border-style: dotted;
+  border-color: black;
 }
 
 .pop-culture.image-content {
-  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-3.png");
+  background-image: url("");
+  background-size: contain;
+  border-style: dotted;
+  border-color: black;
+
 }
 
 /* Second News Column */
