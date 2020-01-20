@@ -6,11 +6,11 @@ body {
   margin: 0;
   font-family: "Georgia", serif;
   font-size: 17px;
-  color: black;
+  color: #2f2f2f;/*dark gray*/
 }
 
 a {
-  color: black;
+  color: #9e1a1a;/*red*/
 }
 
 h2 {
@@ -25,41 +25,7 @@ nav span {
   padding: 20px 10px;
 }
 
-/* Universal Styles - News Stories */
-
-.stories {
-  display: flex;
-  justify-content: space-between;
-  margin-top: 17px;
-}
-
-.stories .text-content {
-  height: 250px;
-}
-
-.story {
-  display: flex;
-  flex-direction: column;
-  width: 300px;
-}
-
-.narrative {
-  margin-top: 16px;
-}
-
-.image-content {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  height: 300px;
-  margin-top: 15px;
-  font-weight: bold;
-  font-size: 30px;
-  color: white;
-  text-align: center;
-}
-
-/* Header */
+/* Universal Styles - Header */
 
 header {
   display: flex;
@@ -68,7 +34,7 @@ header {
   z-index: 1;
   width: 100%;
   height: 80px;
-  border-bottom: 1px solid black;
+  border-bottom: 1px;
   background-color: white;
   font-family: "Verdana", sans-serif;
   font-size: 14px;
@@ -84,12 +50,12 @@ header {
 
 .logo img {
   width: 70px;
-  height: 60px;
+  height: 65px;
   margin-right: 12px;
 }
 
 .logo span {
-  color: mediumaquamarine;
+  color: #2f2f2f;/*dark gray*/
 }
 
 header nav {
@@ -101,88 +67,29 @@ header nav {
 .content {
   display: flex;
   width: 1232px;
-  margin: 0 auto 78px auto;
-  padding-top: 116px;
+  margin: 0 auto 28px auto;
+  padding-top: 90px;
 }
 
 .column {
+  width: 680px;
   display: flex;
   flex-direction: column;
-  margin-right: 32px;
-}
-
-/* First News Column */
-
-.column.large {
-  width: 630px;
+  margin-right: 36px;
 }
 
 .lead-story .vedeo-content {
-  background-image: url("");
   width: 630px;
   margin-top: 0;
   text-align: left;
   font-size: 40px;
 }
+.hour{
+  color:blue;
+}
 
-.lead-story .image-content span {
+.lead-story span {
   margin-left: 20px;
-}
-
-.undercroft.image-content {
-  background-image: url("/bsides/resources/images/undercroft.png");
-  background-size:contain;
-  border-style: dotted;
-  border-color: black;
-}
-
-.pop-culture.image-content {
-  background-image: url("");
-  background-size: contain;
-  border-style: dotted;
-  border-color: black;
-
-}
-
-/* Second News Column */
-
-.column.medium {
-  width: 300px;
-}
-
-.cat-ceo.image-content {
-  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-1.png");
-}
-
-/* Third News Column */
-
-.column.small {
-  width: 240px;
-}
-
-img.cookie {
-  height: 240px;
-}
-
-.news-bites h3 {
-  margin-bottom: 41px;
-  font-size: 16px;
-  font-weight: bold;
-  text-align: center;
-}
-
-.news-bites .bite {
-  display: block;
-  padding: 11px 20px;
-  border-bottom: 1px solid black;
-  background-color: whitesmoke;
-  font-family: "Verdana", sans-serif;
-  font-size: 12px;
-  color: dimgray;
-}
-
-.bite span {
-  padding-left: 11px;
 }
 
 /* Footer */
@@ -192,9 +99,15 @@ footer {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  width: 100%;
+  width: 1232px;
   height: 325px;
-  background-color: mediumaquamarine;
+  background-color: #2f2f2f;
+
+
+
+
+
+  ;
   margin: auto;
   font-family: "Verdana", sans-serif;
   font-size: 12px;
