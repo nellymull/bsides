@@ -2,20 +2,24 @@
 
 /* Universal Styles */
 
+
 html {
-font-size: 14px;
-max-width: 1024px;
-min-width: 768px;
-margin: 0 auto;
+  font-family: "Helvetica", sans-serif;
+  font-size: 18px;
+  background-color: white;
+  color: #2f2f2f;
 }
 
 body {
+  line-height: 1.4;
   margin: 0;
-  font-family: "Arial", serif;
+  /*font-family: "Arial", serif;
   font-size: 14px;
-  color: #2f2f2f;
-  max-width: 1024px;
+  color: #2f2f2f;*/
+
 }
+
+
 
 a {
   color: #9e1a1a;/*red*/
@@ -25,7 +29,7 @@ h2 {
   margin-top: 0;
   margin-bottom: 0;
   padding: 15px;
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   font-weight: bold;
   color: #9e1a1a /*red*/;
   background-color: #2f2f2f /*dark gray*/;
@@ -47,7 +51,6 @@ header {
   position: fixed;
   z-index: 1;
   width: 100%;
-  max-width: 1024px;
   height: 80px;
   border-bottom: 1px;
   background-color: white;
@@ -60,8 +63,6 @@ header {
 header nav {
   padding-right: 20px;
 }
-
-
 
 .logo {
   display: flex;
@@ -84,42 +85,25 @@ header nav {
 /* Main Content Container */
 
 .content {
-
-  /*width: 1232px;*/
-  /*margin: 0 auto 28px auto;*/
   padding-top: 90px;
   overflow: hidden;
   margin: 0 auto;
 }
 
 .column {
-  width: 50;
-  display: flex;
-  flex-direction: column;
-  margin-right: 36px;
+
 }
 
 .day {
 
 }
 
-/*.lead-story .vedeo-content {
-  width: 630px;
-  margin-top: 0;
-  border-bottom: 0;
-  text-align: left;
-  font-size: 40px;
-}*/
 
 .hour{
-  text-align: center;
-  padding: 5px;
   color: #9e1a1a /*red*/;
 }
 
-.lead-story span {
-  margin-left: 20px;
-}
+
 
 /* Footer */
 
@@ -147,4 +131,24 @@ footer .title {
 footer nav {
   display: inline-block;
   padding-left: 25px;
+}
+
+/*Mobile Media Query*/
+
+@media only screen and (max-width: 480px) {
+  body {
+    font-size: 12px;
+  }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+  .NAME .ANOTHER_NAME {
+    width: 95%;
+  }
+}
+
+@media only screen and (max-width: 480px), (orientation: portrait) {
+  .NAME_HERE{
+    width: 270px;
+  }
 }
