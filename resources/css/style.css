@@ -22,7 +22,7 @@ header {
   position: fixed;
   z-index: 1;
   font-family: "Verdana", sans-serif;
-  font-size: 1em;
+  font-size: 0.7em;
   font-weight: bold;
   box-shadow: 1px 10px 25px  #2f2f2f;/*dark gray*/;
 }
@@ -50,9 +50,12 @@ nav div {
 }
 
 .logo img {
-  width: 70px;
-  height: 65px;
-  margin-right: 12px;
+  width: 4rem;
+  height: 4rem;
+  margin-right: 1.5rem;
+  box-shadow: -0.5em 0.2em 0.5em  #2f2f2f;/*dark*/
+  border-radius: 2rem;
+
 }
 
 .logo span {
