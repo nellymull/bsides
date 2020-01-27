@@ -35,10 +35,6 @@ nav {
   justify-content: space-between;
 }
 
-nav div {
-
-
-}
 
 .logo {
   display: flex;
@@ -56,8 +52,6 @@ nav div {
   box-shadow: -0.5em 0.2em 0.5em  #2f2f2f;/*dark*/
   border-radius: 2rem;
 }
-
-
 
 a {
   color: #9e1a1a;/*red*/
@@ -94,21 +88,20 @@ nav span {
 
 
 .day {
-  padding: 1.5em;
+  padding: 1em;
   border-radius: 0.2rem;
   margin-bottom: 2rem;
   box-shadow: -0.5em 0.7em 2em  #2f2f2f;/*dark grey*/
   background-color: white;
-  width: 16em;
-  font-size: 1rem;
+  width: 14.3em;
+  font-size: 1.2em;
 }
 
 
 .hour{
-  padding-left: 1rem;
+  padding-left: 0.5rem;
   color: #9e1a1a /*red*/;
   font-weight: bold;
-
 }
 
 
