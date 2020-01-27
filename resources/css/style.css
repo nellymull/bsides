@@ -13,7 +13,7 @@ body {
 }
 
 header {
-  height: 5rem;
+  height: 5.2rem;
   padding-right: 2rem;
   border-bottom: 1rem;
   background-color: white;
@@ -22,17 +22,16 @@ header {
   position: fixed;
   z-index: 1;
   font-family: "Verdana", sans-serif;
-  font-size: 0.7em;
+  font-size: 0.5em;
   font-weight: bold;
-  box-shadow: 1px 10px 25px  #2f2f2f;/*dark gray*/;
+  box-shadow: -0.1em 1em 2em  #2f2f2f;/*dark gray*/;
 }
-
 
 nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 1rem 0;
+  padding: 0.5rem 0;
 }
 
 nav div {
