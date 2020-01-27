@@ -19,6 +19,7 @@ header {
   padding-left: 1rem;
   border-bottom: 1rem;
   background-color: white;
+  width: 19.9em;
   display: flex;
   align-items: center;
   position: fixed;
