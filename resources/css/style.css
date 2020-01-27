@@ -12,6 +12,54 @@ body {
   margin: 0;
 }
 
+header {
+  height: 5rem;
+  padding-right: 2rem;
+  border-bottom: 1rem;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  position: fixed;
+  z-index: 1;
+  font-family: "Verdana", sans-serif;
+  font-size: 1em;
+  font-weight: bold;
+  box-shadow: 1px 10px 25px  #2f2f2f;/*dark gray*/;
+}
+
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 0;
+}
+
+nav div {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+  height: 1.5rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.logo img {
+  width: 70px;
+  height: 65px;
+  margin-right: 12px;
+}
+
+.logo span {
+  color: #2f2f2f;/*dark gray*/
+}
+
+
 a {
   color: #9e1a1a;/*red*/
 }
@@ -24,60 +72,18 @@ h2 {
   font-size: 2rem;
   line-height: 1.2;
   font-weight: bold;
-
 }
 
 ls {
-  font-size: 1em;
+  font-size: 0.7em;
 }
 
 nav span {
   display: inline-block;
   padding: 20px 10px;
+  font-size: 0.5em;
 }
 
-/* Universal Styles - Header */
-
-header {
-  display: flex;
-  align-items: center;
-  position: fixed;
-  z-index: 1;
-  width: 100%;
-  height: 80px;
-  border-bottom: 1px;
-  background-color: white;
-  font-family: "Verdana", sans-serif;
-  font-size: .5em;
-  font-weight: bold;
-  max-width: 1024px;
-}
-
-header {
-  padding-right: 20px;
-  box-shadow: 10px 5px 5px  #2f2f2f;/*dark gray*/;
-}
-
-nav.container {
-  max-width: 100%;
-}
-
-.logo {
-  display: flex;
-  align-items: center;
-  flex-grow: 1;
-  padding-left: 30px;
-}
-
-.logo img {
-  width: 70px;
-  height: 65px;
-  margin-right: 12px;
-}
-
-.logo span {
-  color: #2f2f2f;/*dark gray*/
-}
 
 
 /* Main Content Container */
@@ -96,8 +102,9 @@ nav.container {
 
 .day {
   padding-left: 4px;
-box-shadow: -4px 1px 10px  #2f2f2f;/*dark*/
-max-width: 1000px;
+  border-radius: 2px;
+  box-shadow: -4px 4px 10px  #2f2f2f;/*dark*/
+  max-width: 1000px;
 }
 
 
@@ -105,7 +112,6 @@ max-width: 1000px;
   padding-left: 2px;
   color: #9e1a1a /*red*/;
   font-weight: bold;
-
 
 }
 
@@ -139,9 +145,3 @@ footer nav {
 }
 
 /*Mobile Media Query*/
-
-@media only screen and (max-width: 1024px) {
-  header {
-    height: 5rem;
-    padding-top: 0;
-  }
