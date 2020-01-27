@@ -32,7 +32,6 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 0.5rem 0;
 }
 
 nav div {
@@ -52,7 +51,7 @@ nav div {
 .logo img {
   width: 4rem;
   height: 4rem;
-  margin-right: 1.5rem;
+  margin-right: 0.5rem;
   box-shadow: -0.5em 0.2em 0.5em  #2f2f2f;/*dark*/
   border-radius: 2rem;
 
@@ -83,19 +82,17 @@ ls {
 
 nav span {
   display: inline-block;
-  padding: 5em 2em;
+  padding: 2em 1em;
   font-size: 0.5em;
 }
-
 
 
 /* Main Content Container */
 
 .content {
-  padding-top: 10rem;
-  padding-left: 2rem;
-  padding-right: 15rem;
-  overflow: hidden;
+  padding-top: 5rem;
+  padding-left: 1rem;
+  padding-right: 10rem;
   margin: 0 auto;
 }
 
