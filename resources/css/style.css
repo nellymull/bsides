@@ -15,8 +15,8 @@ body {
 
 header {
   height: 5.2rem;
-  padding-right: 5rem;
-  padding-left: 5rem;
+  padding-right: 1rem;
+  padding-left: 1rem;
   border-bottom: 1rem;
   background-color: white;
   display: flex;
@@ -31,7 +31,7 @@ header {
 
 nav {
   display: flex;
-  align-items: center;
+  align-items: right;
   justify-content: space-between;
 }
 
@@ -45,8 +45,8 @@ nav div {
   align-items: center;
   flex-grow: 1;
   height: 1.5rem;
-  margin-left: 1rem;
-  margin-right: 1rem;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
 }
 
 .logo img {
@@ -71,8 +71,7 @@ h2 {
   margin-top: 0;
   margin-bottom: 0;
   padding: 1rem;
-  font-size: 1.5rem;
-  font-size: 2rem;
+  font-size: 1.1rem;
   line-height: 1.2;
   font-weight: bold;
 }
@@ -104,6 +103,7 @@ nav span {
   box-shadow: -0.5em 0.1em 1em  #2f2f2f;/*dark grey*/
   background-color: white;
   width: 15em;
+  font-size: 0.8rem;
 }
 
 
