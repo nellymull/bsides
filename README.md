@@ -1,2 +1,2 @@
-# B-Sides https://nellymull.github.io/bsides/agenda.html
+# https://nellymull.github.io/bsides/agenda.html
 
