@@ -67,6 +67,14 @@ h2 {
   font-weight: bold;
 }
 
+h3 {
+  margin-top: 0;
+  margin-bottom: 0.2em;
+  font-size: 0.7em;
+  line-height: 1.2;
+  font-weight: bold;
+}
+
 ls {
   font-size: 0.75em;
 }
@@ -105,6 +113,17 @@ nav span {
   font-weight: bold;
 }
 
+.name {
+  font-size: 0.5em;
+}
+
+.time {
+
+}
+
+.detail {
+}
+
 
 
 /* Footer */
@@ -112,5 +131,5 @@ nav span {
 footer {
   font-family: "Verdana", sans-serif;
   font-size: 0.5rem;
-  padding-left: 7.5rem;
+  padding-left: 8rem;
 }
