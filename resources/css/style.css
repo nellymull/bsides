@@ -117,8 +117,14 @@ nav span {
   font-size: 0.5em;
 }
 
-.time {
-
+.speaker-box{
+    padding: 1em;
+    border-radius: 0.2rem;
+    margin-bottom: 2rem;
+    box-shadow: -0.5em 0.7em 2em  #2f2f2f;/*dark grey*/
+    background-color: white;
+    width: 13.9em;
+    font-size: 1.2em;
 }
 
 .detail {
