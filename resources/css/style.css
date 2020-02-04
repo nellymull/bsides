@@ -114,6 +114,13 @@ nav span {
   margin: 0 auto;
 }
 
+.content-speakers {
+  padding-top: 7rem;
+  padding-left: 1em;
+  padding-right: 6rem;
+  margin: 0 auto;
+}
+
 
 .day {
   padding: 1em;
@@ -137,18 +144,18 @@ nav span {
 }
 
 .speaker-box{
-    padding: 1em;
-    border-radius: 0.2rem;
-    margin-bottom: 2rem;
-    box-shadow: -0.5em 0.7em 2em  #2f2f2f;/*dark grey*/
-    background-color: white;
-    width: 13.9em;
-    font-size: 1.2em;
+  padding: 1em;
+  border-radius: 0.2rem;
+  margin-bottom: 2rem;
+  box-shadow: -0.5em 0.7em 2em  #2f2f2f;/*dark grey*/
+  background-color: white;
+  width: 13.9em;
+  font-size: 1.2em;
 }
 .speaker-inside-box{
   display:flex;
   flex-flow: column;
-  align-items: center;  
+  align-items: center;
 }
 
 .detail {
