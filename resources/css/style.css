@@ -162,7 +162,7 @@ nav span {
 }
 
 .detail {
-  font-size: 0.2em;
+  font-size: 0.5em;
   margin-top: 1;
   margin-bottom: 0;
   padding: 0.2em;
@@ -174,7 +174,9 @@ nav span {
   border-radius: 0.5em;
 }
 
-
+.color-img {
+  filter:grayscale(90%);
+}
 
 
 /* Footer */
