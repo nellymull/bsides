@@ -1,2 +1,2 @@
-# https://nellymull.github.io/bsides/agenda.html
+# B-Sides Tampa 2020 Cybersecurity Conference 
 
