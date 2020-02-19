@@ -57,7 +57,7 @@ nav {
 }
 
 a {
-  color: #9e1a1a;/*red*/
+  color: #d92121;/*red*/
 }
 
 h2 {
@@ -92,7 +92,7 @@ h4{
   line-height: 1.2;
   font-weight: bold;
   text-align: center;
-  color: #9e1a1a;/*red*/
+  color: #ff0000;/*red*/
 }
 
 .list-time {
@@ -139,7 +139,7 @@ nav span {
 .hour{
   padding-left: 0.5rem;
   margin-bottom: 0;
-  color: #9e1a1a /*red*/;
+  color: #d92121 /*red*/;
   font-weight: bold;
   font-size: 1.1em;
 }
