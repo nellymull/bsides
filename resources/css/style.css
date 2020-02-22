@@ -197,6 +197,8 @@ footer {
 button{
   background-color: transparent;
   border-color: transparent;
+  margin: 0 auto;
+  padding: 0;
 }
 .alphabet{
   text-align: center;
