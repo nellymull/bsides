@@ -34,6 +34,7 @@ nav {
   display: flex;
   align-items: right;
   justify-content: space-between;
+  padding-right: 1em;
 }
 
 .logo {
@@ -90,6 +91,8 @@ h4{
 
 
 
+
+
 .list-time {
   font-size: 0.8em;
 }
@@ -112,17 +115,17 @@ nav span {
 }
 
 
-
 .day {
   padding: 1em;
   border-radius: 0.2rem;
   margin-bottom: 2rem;
   box-shadow: -0.5em 0.7em 2em  #2f2f2f;/*dark grey*/
   background-color: white;
-
   font-size: 1.2em;
 }
-
+#day-friday {
+  padding-top: 6em;
+}
 
 .hour{
   padding-left: 0.5rem;
@@ -154,9 +157,11 @@ footer {
 #nav-logo {
   position: fixed;
   z-index: 1;
-  display: block;
-  opacity: 3;
+  margin:0 auto;
+  display: flex;
+  flex-direction: column;
 }
+
 
 .content-speakers {
   padding-top: 0rem;
@@ -184,7 +189,14 @@ footer {
 }*/
 
 #h2-speaker{
-  padding-left: 2rem; /*INSTEAD OF 7*/
+  font-size: 3em;
+  margin: 0 auto;
+
+}
+
+h3.speaker-name{
+  font-size: 1.5em;
+
 }
 
 .speaker-box{
@@ -203,7 +215,7 @@ footer {
 }
 
 .detail {
-  font-size: 0.5em;
+  font-size: 0.7em;
   margin-top: 1;
   margin-bottom: 0;
   padding: 0.2em;
@@ -212,5 +224,9 @@ footer {
 .speakers{
   margin: 0.5em;
   box-shadow: -0.5em 0.1em 2em  #2f2f2f;
-  border-radius: 0.5em;
+  border-radius: 0.5em;}
+
+#back-agenda {
+  color: #8B0000;/*dark red*/
+
 }
