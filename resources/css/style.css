@@ -6,8 +6,7 @@ html {
 
   background-color: #dcdcdc;
   color: #2f2f2f;
-  max-width: 580px;
-  max-width: 480px;
+  max-width: 1400px;
 }
 
 body {
@@ -32,21 +31,11 @@ header {
   box-shadow: 0.5em 0.5em 2em 0.2em  #2f2f2f;/*dark gray*/
 }
 
-
-
 nav {
   display: flex;
   align-items: right;
   justify-content: space-between;
 }
-
-#nav-logo {
-  position: fixed;
-  z-index: 1;
-  display: block;
-  opacity: 3;
-}
-
 
 .logo {
   display: flex;
@@ -78,10 +67,6 @@ h2 {
   font-weight: bold;
   text-align: center;
 }
-#h2-speaker{
-  padding-left: 2rem;
-}
-
 
 h3{
   margin-top: 0;
@@ -128,12 +113,6 @@ nav span {
   margin: 0 auto;
 }
 
-.content-speakers {
-  padding-top: 0rem;
-  padding-left: 1em;
-  padding-right: 6rem;
-  margin: 0 auto;
-}
 
 
 .day {
@@ -159,13 +138,64 @@ nav span {
   font-size: 0.5em;
 }
 
+.color-img {
+  filter:grayscale(90%);
+}
+
+
+/* Footer */
+
+footer {
+  font-family: "Verdana", sans-serif;
+  font-size: 0.5rem;
+  padding-left: 8rem;
+}
+
+/*Speakers only*/
+
+#nav-logo {
+  position: fixed;
+  z-index: 1;
+  display: block;
+  opacity: 3;
+}
+
+.content-speakers {
+  padding-top: 0rem;
+  padding-left: 1em;
+  padding-right: 1rem;
+  margin: 0 auto;
+}
+
+/*DO NOT UNCOMMENT - JUST FOR REFERENCE
+.logo {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+  height: 1.5rem;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+}
+
+.logo img {
+  width: 4rem;
+  height: 4rem;
+  margin-right: 0.5rem;
+  box-shadow: -0.5em 0.2em 0.5em  #2f2f2f;/*dark
+  border-radius: 2rem;
+}*/
+
+#h2-speaker{
+  padding-left: 2rem; /*INSTEAD OF 7*/
+}
+
 .speaker-box{
   padding: 1em;
   border-radius: 0.2rem;
   margin-bottom: 2rem;
   box-shadow: -0.5em 0.7em 2em  #2f2f2f;/*dark grey*/
   background-color: white;
-  width: 13.9em;
+
   font-size: 1.2em;
 }
 .speaker-inside-box{
@@ -185,17 +215,4 @@ nav span {
   margin: 0.5em;
   box-shadow: -0.5em 0.1em 2em  #2f2f2f;
   border-radius: 0.5em;
-}
-
-.color-img {
-  filter:grayscale(90%);
-}
-
-
-/* Footer */
-
-footer {
-  font-family: "Verdana", sans-serif;
-  font-size: 0.5rem;
-  padding-left: 8rem;
 }
