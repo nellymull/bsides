@@ -32,10 +32,19 @@ header {
   box-shadow: 0.5em 0.5em 2em 0.2em  #2f2f2f;/*dark gray*/
 }
 
+
+
 nav {
   display: flex;
   align-items: right;
   justify-content: space-between;
+}
+
+#nav-logo {
+  position: fixed;
+  z-index: 1;
+  display: block;
+  opacity: 3;
 }
 
 
@@ -69,8 +78,8 @@ h2 {
   font-weight: bold;
   text-align: center;
 }
-.h2-speaker{
-
+#h2-speaker{
+  padding-left: 2rem;
 }
 
 
@@ -120,7 +129,7 @@ nav span {
 }
 
 .content-speakers {
-  padding-top: 8rem;
+  padding-top: 0rem;
   padding-left: 1em;
   padding-right: 6rem;
   margin: 0 auto;
