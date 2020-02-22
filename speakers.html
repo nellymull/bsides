@@ -13,8 +13,14 @@
 
 
     <div class="logo" id="nav-logo">
-        <a href="index.html"><img src="https://s3.amazonaws.com/uploads.webconnex.com/5603%2F1578796399502-transparent_logo.png"></a>
-        <span id="back-agenda"><a href="index.html"><img src="photos/back.png" alt="" style="width:1em; height:1em;"></span></a>
+      <button onclick="goBack()"><img src="https://s3.amazonaws.com/uploads.webconnex.com/5603%2F1578796399502-transparent_logo.png"><br><img src="photos/back.png" alt="" style="width:1em; height:1em;"></button>
+
+      <script>
+      function goBack() {
+        window.history.back();
+      }
+      </script>
+
     </div>
 
 
@@ -22,7 +28,8 @@
   <div class="content-speakers">
     <div class="column">
     <div class="speaker-box">
-    <h2>Speakers<br></h2><span>
+    <h2>Speakers<br></h2>
+    <div class="alphabet">
       <span><a href=#alex-k>a</a></span>
       <span><a href=#beau-b>b</a></span>
       <span><a href=#casey-m>c</a></span>
@@ -43,8 +50,8 @@
       <span><a href=#thomas-s>t</a></span>
       <span><a href=#vanessa-f>v</a></span>
       <span><a href=#will-b>w</a></span>
-
-      <a href="index.html">Back</a></span>
+      <span><a href="index.html">Back</a></span>
+    </div>
     </div>
 
     <section class="speaker-box" id="alex-k" name="alex-k"><!-- Base -->
@@ -60,7 +67,7 @@
 
     <section class="speaker-box" id="allan-l" name="allan-l"><!-- Base -->
       <div class="speaker-inside-box">
-        <h3 class="speaker-name">Alan Liska</h3>
+        <h3 class="speaker-name">Allan Liska</h3>
         <h4 class="speaker-speech">Talk Title: Turn Down for RaaS: Seperating Hype from Reality in the Ransomware as a Service Market</h4>
         <img class="speakers" src="photos/Liska-Allan.png" alt="" style="width:2.5em; height:2.5em;">
         <div class="detail-box">
@@ -373,6 +380,16 @@
       </div>
     </section><!-- End Base -->
 
+    <!--<section class="speaker-box" id="joe-g" name="joe-g">
+        <h3 class="speaker-name">Joe Gray</h3>
+        <h4 class="speaker-speech">OSINT</h4>
+        <img class="speakers" src="" alt="" style="width:2.3em; height:2.2em;">
+        <div class="detail-box">
+          <p class="detail"></a></p>
+        </div>
+      </div>
+    </section>-->
+
     <section class="speaker-box" id="joff-t" name="joff-t"><!-- Base -->
       <div class="speaker-inside-box">
         <h3 class="speaker-name">Joff Thyer</h3>
@@ -497,6 +514,18 @@ bypass, source code analysis, and exploit research. When Joff isn’t working or
         <img class="speakers" src="photos/Kaminski-kevin.png" alt="" style="width:2.3em; height:2.2em;">
         <div class="detail-box">
           <p class="detail">Nick joined Tenable as a Research Manager in 2011. He has written hundreds of Nessus plugins and developed several core libraries used in the Nessus engine. He now leads the company’s Zero Day Research team. In his free time, Nick likes model aircraft, metalworking and breaking out his telescope on clear nights.
+            <br><br><a href=#top>Top</a></p>
+        </div>
+      </div>
+    </section><!-- End Base -->
+
+    <section class="speaker-box" id="kerry-h" name="kerry-h"><!-- Base -->
+      <div class="speaker-inside-box">
+        <h3 class="speaker-name">Kerry Hazelton</h3>
+        <h4 class="speaker-speech">Talk Title: Cloud Forensics</h4>
+        <!--<img class="speakers" src="photos/Kaminski-kevin.png" alt="" style="width:2.3em; height:2.2em;">-->
+        <div class="detail-box">
+          <p class="detail">Kerry Hazelton's career between Information Technology and Security has spanned the course of over two decades, and with it he has developed considerable experience with systems and network support, data center operations, and information security. As such, he considers himself a “cybersecurity enthusiast” due to his desire and motivation to read up on the latest trends within the industry, to learn about a new exploit or tool, or his willingness to teach and share with others his experiences over the years. He is the creator of the Cloud Forensics Challenge, which is an all-day technical workshop and CTF competition that focuses on learning about the science of cloud forensics and its real-world applications to test students' comprehension and their skills.
             <br><br><a href=#top>Top</a></p>
         </div>
       </div>

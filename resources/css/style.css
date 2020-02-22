@@ -82,7 +82,7 @@ h4{
   margin-top: 0;
   margin-bottom: 0;
   padding: 0.1em;
-  font-size: 0.6em;
+  font-size: 0.8em;
   line-height: 1.2;
   font-weight: bold;
   text-align: center;
@@ -160,6 +160,7 @@ footer {
   margin:0 auto;
   display: flex;
   flex-direction: column;
+
 }
 
 
@@ -191,21 +192,27 @@ footer {
 #h2-speaker{
   font-size: 3em;
   margin: 0 auto;
-
 }
 
+button{
+  background-color: transparent;
+  border-color: transparent;
+}
+.alphabet{
+  text-align: center;
+  padding: 0.2em 2.7em;
+}
 h3.speaker-name{
-  font-size: 1.5em;
+  font-size: 1.6em;
 
 }
 
 .speaker-box{
-  padding: 1em;
+  padding: 0.5em 1em;
   border-radius: 0.2rem;
-  margin-bottom: 2rem;
+  margin-bottom: 1.5rem;
   box-shadow: -0.5em 0.7em 2em  #2f2f2f;/*dark grey*/
   background-color: white;
-
   font-size: 1.2em;
 }
 .speaker-inside-box{
